@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jnlp spec="1.0+" codebase="/home/danny/software/MapEvaluation/fx" href="javafx-rt.jnlp">
+<jnlp spec="1.0+" codebase="https://github.com/danningwang/map_evaluation/tree/master/fx" href="javafx-rt.jnlp">
     <information>
         <title>JavaFX Runtime</title>
         <vendor>Oracle Corporation</vendor>
