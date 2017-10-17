@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Temple University Robotics Laboratory, 2011 -->
+
+<jnlp spec="1.0+" codebase="http://astro.temple.edu/~tuc69921/mapEvaluation/MapEvaluationTool_Ver2_online.jnlp" 
+  href="">
+    <information>
+        <title>MapEvaluationTool Ver.1.0</title>
+        <vendor>Kristiyan Georgiev</vendor>
+        <homepage href="http://astro.temple.edu/~tuc69921"/>
+        <description>MapEvaluationTool</description>
+    </information>
+    
+    <security>
+		<all-permissions/>
+	</security>
+   
+    
+   <resources>
+        <j2se version="1.5+"/>
+        <extension name="JavaFX Runtime" href="https://github.com/porst17/fxd2fxml/tree/master/javafx-rt-1_3_1/javafx-rt.jnlp"/>
+        <jar href="/home/danny/software/MapEvaluation/MapEvaluationTool.jar" main="true" size="331210"/>		
+		
+		<jar href="/home/danny/software/MapEvaluation/lib/Jama-1.0.1.jar"/>
+		<jar href="/home/danny/software/MapEvaluation/lib/jsi-1.0b6.jar"/>
+		<jar href="/home/danny/software/MapEvaluation/lib/log4j-1.2.16.jar"/>
+		<jar href="/home/danny/software/MapEvaluation/lib/trove.jar"/>
+		<jar href="/home/danny/software/MapEvaluation/javafx-rt-linux-i586__V1.3.1_b101.jar"/>
+		
+		
+    </resources>
+    <application-desc main-class="com.sun.javafx.runtime.main.Main" progress-class="com.javafx.progressbar.ProgressManager">
+		<argument>MainJavaFXScript=mapevaluationtool.Main</argument>	        
+    </application-desc>
+</jnlp>
